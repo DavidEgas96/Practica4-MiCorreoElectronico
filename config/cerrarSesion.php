@@ -11,7 +11,7 @@
     session_start();
     $_SESSION['isLogged'] = FALSE;
     session_destroy();
-    header("Location: /SistemaDeGestion/public/vista/login.html");  ?>
+    header("Location: /Practica04-EgasDavid/public/vista/login.html");  ?>
     ?>
 </body>
 
