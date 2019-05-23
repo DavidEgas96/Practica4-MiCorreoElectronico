@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Gestion de Usuarios</title>
+    
+    <script type="text/javascript" src="../controladores/funciones.js"> </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+ 
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/supersized.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="page-container">
+        <h2>Ingrese sus Datos:</h2>
+    
+    <form id="formulario01" method="POST" enctype="multipart/form-data" action="../controladores/crear_usuario.php">
+        
+        <input type="text" id="cedula" name="cedula" value="" placeholder="Ingrese el número de cedula..." required />
+        
+        <input type="text" id="nombres" name="nombres" value="" placeholder="Ingrese sus dos nombre..." required />
+        
+        <input type="text" id="apellidos" name="apellidos" value="" placeholder="Ingrese sus dos apellidos..." required />
+
+        <input type="text" id="direccion" name="direccion" value="" placeholder="Ingrese su dirección ..." required />    
+        
+        <input type="text" id="telefono" name="telefono" value="" placeholder="Ingrese su número telefónico..." required />
+        
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" value="" placeholder="Ingrese su fecha de nacimiento ..." required />
+        
+        <input type="email" id="correo" name="correo" value="" placeholder="Ingrese su correo electrónico..." required />
+        
+        <input type="password" id="contrasena" name="contrasena" value="" placeholder="Ingrese su contraseña..." required />
+      
+        <input type="file" name="img" >
+
+        <button type="submit" id="crear" name="crear" value="Aceptar" />Cargar</button>
+        <button type="reset" id="cancelar" name="cancelar" value="Cancelar" />Cancelar</button>
+        <a href="login.html"><button type="button" id="login" name="login" value="Ya tienes una cuenta Ingresa" />Ingresar</button></a>
+
+    </div>
+        <script src="assets/js/jquery-1.8.2.min.js"></script>
+        <script src="assets/js/supersized.3.2.7.min.js"></script>
+        <script src="assets/js/supersized-init.js"></script>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,23 @@
+#tbl {
+    width: 100%;
+    border: 1px solid snow;
+    float: right;
+    color: aqua;
+}
+
+#col1{
+    width: 20%;
+}
+
+#col2,#col3{
+    width: 40%;
+}
+
+th, td {
+    vertical-align: center;
+    border: 1px solid snow;
+}
+
+#tf{
+    width: 100%;
+}
