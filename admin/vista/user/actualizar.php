@@ -10,35 +10,35 @@ if (!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Sistema de Gestion de Usuarios</title>
+    <title>Practica04</title>
     <link href="../../../public/vista/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body background="fondo.jpg">
     <header class="cab">
-        <h1>Actualizar Datos Usuario</h1>
+        <h1>Actualizar</h1>
     </header>
     <form id="formulario01" method="POST" action="../../controladores/actualizar.php">
         <input type="hidden" id="codigo" name="codigo" value=" <?php echo $_GET["codigo"]; ?>" />
-        <label for="cedula">Cedula (*)</label>
+        <label for="cedula">Cedula:</label>
         <input type="text" id="cedula" name="cedula" value="<?php echo $_GET["cedula"]; ?>" />
         <br>
-        <label for="nombres">Nombres (*)</label>
+        <label for="nombres">Nombres:</label>
         <input type="text" id="nombres" name="nombres" value="<?php echo $_GET["nombres"]; ?>" />
         <br>
-        <label for="apellidos">Apelidos (*)</label>
+        <label for="apellidos">Apelidos:</label>
         <input type="text" id="apellidos" name="apellidos" value="<?php echo $_GET["apellidos"]; ?>" />
         <br>
-        <label for="direccion">Dirección (*)</label>
+        <label for="direccion">Dirección:</label>
         <input type="text" id="direccion" name="direccion" value="<?php echo $_GET["direccion"]; ?>" />
         <br>
-        <label for="telefono">Teléfono (*)</label>
+        <label for="telefono">Teléfono:</label>
         <input type="text" id="telefono" name="telefono" value="<?php echo $_GET["telefono"]; ?>" />
         <br>
-        <label for="fecha">Fecha Nacimiento (*)</label>
+        <label for="fecha">Fecha Nacimiento:</label>
         <input type="date" id="fechaNacimiento" name="fechaNacimiento" value="<?php echo $_GET["fechaNacimiento"]; ?>" />
         <br>
-        <label for="correo">Correo electrónico (*)</label>
+        <label for="correo">Correo electrónico:</label>
         <input type="email" id="correo" name="correo" value="<?php echo $_GET["correo"]; ?>" />
         <br>
         <input type="submit" id="eliminar" name="eliminar " value="Actualizar" />

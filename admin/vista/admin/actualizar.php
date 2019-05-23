@@ -10,11 +10,11 @@ if (!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Sistema de Gestion de Usuarios</title>
+    <title>Practica04</title>
     <link href="../../../public/vista/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body background="fondo.jpg">
     <header class="cab">
         <h1>Actualizar Datos Usuario</h1>
     </header>
