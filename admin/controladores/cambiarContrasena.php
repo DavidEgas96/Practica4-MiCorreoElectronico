@@ -3,7 +3,7 @@ session_start();
 $codigoui = $_SESSION['cod'];
 $usurol = $_SESSION['rol'];
 if (!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE) {
-    header("Location: /SistemaDeGestion/public/vista/login.html");
+    header("Location: /Practica04-EgasDavid/public/vista/login.html");
 }
 ?>
 
