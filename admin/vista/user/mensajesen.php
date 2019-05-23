@@ -39,7 +39,7 @@ include '../../../config/conexionBD.php';
 <body background="fondo.jpg">
     <header class="cabis">
         <h2>
-            Listado de Correos del Usuario
+            Correos Enviados
         </h2>
         <nav class="navi">
             <ul id="menu">
@@ -51,10 +51,10 @@ include '../../../config/conexionBD.php';
             </ul>
         </nav>
         <a href='index.php'><button style="color: #003366; background-color: #99CCFF"  type="button" id="login" name="login" value="Ya tienes una cuenta Ingresa" />Inicio</button> </a>
-                <a href='mensajenu.php'><button style="color: #003366; background-color: #99CCFF" type="button">Crear Mensaje</button></a><br><br>
+                <a href='mensajenu.php'><button style="color: #003366; background-color: #99CCFF" type="button">Crear Mensaje</button></a>
                  <a href='mensajesen.php'><button style="color: #003366; background-color: #99CCFF" type="button">Elementos enviados </button></a> 
-                <a href='cuenta.php'><button style="color: #003366; background-color: #99CCFF" type="button">Mi Perfil</button></a> <br><br>
-                
+                <a href='cuenta.php'><button style="color: #003366; background-color: #99CCFF" type="button">Mi Perfil</button></a> 
+                <br><br><br>
        
         <h4>Mensajes Enviados</h4>
         <nav id="foto"> 

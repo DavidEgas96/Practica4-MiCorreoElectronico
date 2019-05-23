@@ -75,11 +75,10 @@ include '../../../config/conexionBD.php';
 
         
         <a href='index.php'><button style="color: #003366; background-color: #99CCFF"  type="button" id="login" name="login" value="Ya tienes una cuenta Ingresa" />Inicio</button> </a>
-                <a href='mensajenu.php'><button style="color: #003366; background-color: #99CCFF" type="button">Crear Mensaje</button></a><br><br>
+                <a href='mensajenu.php'><button style="color: #003366; background-color: #99CCFF" type="button">Crear Mensaje</button></a>
                  <a href='mensajesen.php'><button style="color: #003366; background-color: #99CCFF" type="button">Elementos enviados </button></a> 
-                <a href='cuenta.php'><button style="color: #003366; background-color: #99CCFF" type="button">Mi Perfil</button></a> <br><br>
-                
-       
+                <a href='cuenta.php'><button style="color: #003366; background-color: #99CCFF" type="button">Mi Perfil</button></a> 
+                <br><br><br>
 
     </header>
     <form id="formulario01">
