@@ -80,7 +80,7 @@ if (!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE) {
     if ($usurol == "admin") {
         echo "<a href='../vista/admin/listado.php'> Regresar </a>";
     } else {
-        echo "<a href='../../vista/user/cuenta.php'> Regresar </a>";
+        echo "<a href='../vista/user/cuenta.php'> Regresar </a>";
     }
     ?>
 </body>

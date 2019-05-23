@@ -37,7 +37,7 @@
 
     $sql = "INSERT INTO usuario VALUES(0, '$cedula', '$nombres', '$apellidos', '$direccion', '$telefono', '$correo', '$pass', '$fechaNacimiento', 'N', null,null,'user','$destino');";
     if ($conn->query($sql) === TRUE) {
-        echo "<p>Se ha creado los datos personales correctamemte !!!</p>";
+        echo "<p>Correcto!!!</p>";
     } else {
         if ($conn->errno == 1062) {
             echo "<p class='error'> La persona con la cedula $cedula ya está registrada en el sistema </p>";

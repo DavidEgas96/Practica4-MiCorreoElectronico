@@ -18,7 +18,7 @@ if (!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE) {
     <header class="cab">
         <h1>Cambie su contraseña:</h1>
     </header>
-    <form id="formulario01" method="POST" action="../../controladores/user/cambiarContrasena.php">
+    <form id="formulario01" method="POST" action="../../controladores/cambiarContrasena.php">
         <input type="hidden" id="codigo" name="codigo" value=" <?php echo $_GET["codigo"]; ?>" />
         <label for="contrasenaActual">Contraseña Actual:</label>
         <input type="password" id="contrasenaActual" name="contrasenaActual" value="" />
