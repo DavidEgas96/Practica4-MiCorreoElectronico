@@ -14,7 +14,7 @@ if (!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Gestión de usuarios</title>
+    <title>Practica04</title>
     <link href="../../../public/vista/css/stables.css" rel="stylesheet" type="text/css" />
     <link href="../../../public/vista/css/style.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="../../controladores/usuario/js/metodos.js"> </script>
