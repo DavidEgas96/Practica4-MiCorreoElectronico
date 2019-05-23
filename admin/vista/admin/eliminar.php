@@ -43,7 +43,7 @@ if (!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE) {
         <br>
         <input type="submit" id="eliminar" name="eliminar " value="Eliminar" />
         <input type="reset" id="cancelar " name="cancelar" value="Cancelar" />
-        <a href="../../vista/user/index.php"> Regresar </a>
+        <a href="../../vista/admin/index.php"> Regresar </a>
     </form>
 </body>
 

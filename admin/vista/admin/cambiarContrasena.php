@@ -10,26 +10,26 @@ if (!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Sistema de Gestion de Usuarios</title>
+    <title>Practica04</title>
     <link href="../../../public/vista/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body background="fondo.jpg">
     <header class="cab">
         <h1>Cambiar Contraseña Usuario</h1>
     </header>
     <form id="formulario01" method="POST" action="../../controladores/cambiarContrasena.php">
         <input type="hidden" id="codigo" name="codigo" value=" <?php echo $_GET["codigo"]; ?>" />
-        <label for="contrasenaActual">Contraseña Actual (*)</label>
+        <label for="contrasenaActual">Contraseña Actual:</label>
         <input type="password" id="contrasenaActual" name="contrasenaActual" value="" />
         <br>
-        <label for="contrasenaNueva">Contraseña Nueva (*)</label>
+        <label for="contrasenaNueva">Contraseña Nueva: </label>
         <input type="password" id="contrasenaNueva" name="contrasenaNueva" value="" />
         <br>
         <br>
-        <input type="submit" id="cambiarContrasena" name="cambiarContrasena" value="Cambiar Contraseña" />
+        <input type="submit" id="cambiarContrasena" name="cambiarContrasena" value="Aceptar" />
         <input type="reset" id="cancelar " name="cancelar" value="Cancelar" />
-        <a href="../../vista/usuario/index.php"> Regresar </a>
+        <a href="../../vista/admin/index.php"> Regresar </a>
     </form>
 </body>
 
